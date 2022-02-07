@@ -9,7 +9,7 @@ public class MyWorldDbContext : DbContext
     {
 
     }
-    public DbSet<Cake> Cakes { get; set; }
-    public object Cake { get; set; }
+    public DbSet<Cake> Cake { get; set; }
+    //public object Cake { get; set; }
 }
  

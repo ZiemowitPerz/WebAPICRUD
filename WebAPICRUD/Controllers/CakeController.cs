@@ -17,7 +17,6 @@ public class CakeController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAsync()
     {
-        //https://youtu.be/A6dPEYbGH0k?t=842
         var cakes = await _myWorldDbContext.Cake.ToListAsync();
         return Ok(cakes);
     }
